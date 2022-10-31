@@ -22,8 +22,8 @@ SERVICES = [
 
 
 @app.route("/")
-def hello_jovian():
-  return render_template('home.html', service=SERVICES)
+def hello_raj():
+  return render_template('index.html', service=SERVICES)
 
 
 if __name__ == "__main__":

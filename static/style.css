@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://d7c2r9g9.rocketcdn.me/wp-content/uploads/free-powerpoint-background-03.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header {
+    color: red;
+    font-family: cursive;
+
+}
+.info {
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 1%;
+    width: 31%;
+    height: 250px;
+    border: solid;
+    border-radius: 10px;
+}
+#education {
+    background-color: burlywood;
+    border-color: burlywood;
+}
+#experience {
+    background-color:skyblue;
+    border-color: skyblue;
+}
+#hobbies {
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+h1 {
+    text-align: left;
+    color: blue;
+    font-family: serif;
+}
+h2 { 
+    color: black;
+    font-family: serif;
+}
+div {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+.social_media :hover {
+    transform: scale(1.2);
+}
+#email {
+    margin: 05px;
+}
+.name{
+    margin: 05px;
+}
+@media only screen and (max-width:600px){
+          .info {
+              display: block;
+              box-sizing: border-box;
+              vertical-align: top;
+              margin: 5%;
+              width: 90%;
+              height: 250px;
+              border: solid;
+              border-radius: 10px;
+          }
+}
+
+    
+
